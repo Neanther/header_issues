@@ -1,0 +1,85 @@
+.header_top{
+  position:relative;
+  padding:43px 0 71px;
+  background:#fff; 
+  background-image:url(https://donmezbilisim.com/wp-content/themes/consulting/assets/images/header-bg.png); 
+  background-repeat: no-repeat;
+  background-size: auto 7rem;
+}
+
+.header_top:before{
+  content:'';
+  position:absolute;
+  left:0;top:0;right:0;bottom:0;
+  background:rgba(0,0,0,.1);
+  z-index:10;
+  display:block
+}
+
+.header_top .container{
+  position:relative;
+  z-index:15
+}
+
+.logo{
+  float:left;font-size:30px;
+  text-transform:uppercase;
+  color:#333
+}
+
+.logo a{
+  display:block
+}
+
+.logo a img{
+  max-width:inherit
+}
+
+.header_socials{
+  float:right;
+  font-size:0;
+  margin:0 0 0 82px
+}
+
+.header_socials a{
+  font-size:22px;
+  line-height:22px;
+  display:inline-block;
+  margin:10px 0 0 16px;
+  color:rgba(255,255,255,.66);
+  transition:color .2s linear
+}
+
+.header_socials a:first-child
+{margin:0
+}
+
+.header_socials a:hover{
+color:#fff
+}
+
+.icon_text{
+position:relative
+}
+
+.icon_text .icon{
+  float:left;
+  font-size:22px;
+  color:#e3002a;
+  margin:0 14px 0 0
+}
+
+.icon_text .icon i{
+  vertical-align:top
+}
+
+.icon_text .text{
+  color:#000;
+  float:right;
+  font-size:13px
+}
+
+.icon_text .text strong{
+  font-weight:400;
+  line-height:16px
+}

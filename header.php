@@ -302,7 +302,7 @@
                 else: ?>
                     <?php if (consulting_get_header_style() == '' || consulting_get_header_style() == 'header_style_1' || consulting_get_header_style() == 'header_style_3' || consulting_get_header_style() == 'header_style_4'): ?>
 
-                        <div class="header_top clearfix" >
+                        <div  class="header_top clearfix" onclick="location.href='www.donmezbilisim.com';" style="cursor: pointer;" >
                             <div class="container">
                                 <?php if (consulting_get_header_style() != 'header_style_4' && $socials = consulting_get_socials()): ?>
                                     <div class="header_socials">
